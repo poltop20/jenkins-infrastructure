@@ -7,7 +7,7 @@ resource "aws_instance" "ec2" {
     encrypted     = true
     }
     tags = {
-    Name = "jenkins-tf-webserver"
+    Name = "jenkins-tf-webserver1"
     }
   
 }
